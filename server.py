@@ -13,14 +13,12 @@ from  Crypto.Cipher import AES
 from Crypto import Random
 secret_thing = hashlib.sha256()
 
-# Authentication: SHA256
-# Encryption: AES256
-## ================== OPTIONS ================== ##
+
 HOST = "localhost"
 PORT = 8083
 Auth_PASS = "t6w9z$C&F)J@NcRfUjXn2r5u8x!A%D*G"
 PASS_PHRASE = ""
-## ============================================= ##
+
 global EXIT_Validation
 global EXIT_Connections
 EXIT_Validation = 0
